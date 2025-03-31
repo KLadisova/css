@@ -1,0 +1,207 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Oranienbaum&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+body { 
+    background-color:white;
+    color: #743510 ;
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+ } 
+  /*альтернатива font: "Roboto", sans-serif 400 auto normal */ 
+ /*альтернатива  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */
+ 
+ .info {
+    margin-bottom: 20px;
+ }
+ a {
+color: black;
+text-decoration: none;
+ }
+ a :active {
+    color: blue;
+ }
+ a :hover {
+    text-decoration: underline;
+     } 
+     a :visited {
+        color: grey;
+     }
+
+ .LOGO {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+object-fit: contain;
+/* display: block; */
+margin: 0 auto;
+ } 
+ /* для class в css .LOGO  */
+
+ /* для ID в css #LOGO */
+ .card {
+    margin-bottom: 20px;
+ }
+
+ .list {
+    padding: 0 20px;
+ }
+ .list li {
+color: #86898f;
+margin-bottom: 10px;
+ }
+
+ .bg-yellow {
+background: #fff9dc;
+ }
+ .bg-orange {
+    background: #faffe5;
+ }
+ .bg-green {
+background: #e5ffe7;
+ }
+ .bg-red {
+background: #ffe5e5;
+ }
+ .bg-blue {
+background: #e5e9ff ;
+ }
+ .card {
+    padding: 15px 20px;
+margin-bottom: 20px;
+border-radius: 20px;
+}
+.price {
+    width: 100%;
+    padding-bottom: 10px;
+}
+.price td:nth-child(2), .price td:nth-child(3)
+{
+    color: #86898f;
+}
+
+/* .price td:nth-child(odd){
+    background: red;
+} */
+
+.sort {
+    list-style: circle;
+}
+.sort li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact {
+    text-align: end;
+}
+
+.search label {
+display: block;
+text-align: center;
+/* font-size: 14px; */
+color: #86898f
+}
+
+.search input {
+width: 100%;
+box-sizing: border-box;
+text-align: center;
+border: none;
+border-bottom: 1px solid #ccc;
+color:black;
+padding: 10px 5px 5px;
+outline: none;
+font-family: inherit;
+/* background: transparent; */
+}
+ .info {
+
+margin-bottom: 20px;
+}
+@media (max-width: 700px) {
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+
+ .info-text h4 {
+    margin-bottom: 10px;
+ }
+.btn {
+    background: #a7a2a2;
+    padding: 15px 20px;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn :hover {
+    opacity: 0.9;
+}
+
+/* .position {
+    position: relative;
+border: 4px solid black;
+margin-top:  40px;
+padding: 20px;
+height: 300px;
+}
+.box {
+position: fixed;
+bottom: 50px;
+right: 50px;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background: lightcoral;
+} */
+
+
+/* .info p {
+color: #1805e8;
+margin: 0;
+font-style: italic;
+font-weight: bold;
+text-decoration: none; */
+/* text-transform: capitalize; */
+/* letter-spacing: 15px; */
+/* word-spacing: 42px; */
+/* }
+.social {
+background-color: pink;
+padding: 15px 20px 25px 30px ;
+border: 5px solid red;
+margin: 30px;
+border-bottom-style: dotted;
+border-top-width: 15px;
+border-right-color: blue;
+}
+ .container {
+   max-width: 750px;
+   margin: auto;
+ }
+ .box-module > div {
+    float: left;
+background-color: black;
+height: 200px;
+width: 25%;
+border: 4px solid red;
+box-sizing: border-box;
